@@ -1,8 +1,8 @@
 <?php
 
-use SubInceptionLib\SubInception;
-
 namespace InceptionLib;
+
+use SubInceptionLib\SubInception;
 
 class Inception {
 	public static function incept() {
