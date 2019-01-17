@@ -1,0 +1,30 @@
+{
+    "name": "PHPFightClub/klynabirbis",
+    "description": "Klasiska dvirate autotransporto priemone",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Durden"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/s-emicolon/clarkson_lib"
+		}
+	],
+    "require": {
+        "php": "^7.0",
+		"TieSone/clarksonlib": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Klynabirbis\\": "src/klynabirbis"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Klynabirbis\\": "tests/klynabirbis"}
+    }
+}
